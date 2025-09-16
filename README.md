@@ -29,7 +29,7 @@ This Phase 2 project automates threat detection in AWS using serverless services
 
 ## Architecture
 
-![Architecture Diagram](diagrams/phase2-architecture.png)  
+![Architecture Diagram](diagrams/architecture diagram.png)  
 
 **Components:**  
 1. **CloudTrail** – Collects API and console activity logs across all regions  
