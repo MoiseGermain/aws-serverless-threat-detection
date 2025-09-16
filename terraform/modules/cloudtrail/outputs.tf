@@ -1,11 +1,7 @@
-output "cloudtrail_name" {
-  value = module.cloudtrail.trail_name
+output "trail_name" {
+  value = aws_cloudtrail.this.name
 }
 
-output "sns_topic_arn" {
-  value = module.sns.topic_arn
-}
-
-output "lambda_arn" {
-  value = module.lambda.lambda_arn
+output "bucket_name" {
+  value = aws_s3_bucket.cloudtrail_bucket.id
 }
